@@ -27,6 +27,10 @@ String cadenaDouble= "1064.1213";
 try {
     int convertidoEntero = Integer.parseInt(cadenaEntero);
 double convertidoDouble = Double.parseDouble(cadenaDouble);
-    System.out.println ("Conversionn cadenas)
-    System.out.println
-    System.out.println
+    System.out.println ("Conversion cadenas: ");
+    System.out.println ("Cadena: \"" + cadenaEntero + "\" > Entero " + convertido +"\"");
+    System.out.println ("Cadena: \"" + cadenaDouble + "\" > Doble " + convertido +"\"");
+    } catch (NumberFormatException e) {
+System.out.println("Error en la conversion de cadena a números...");
+}
+ //
